@@ -1,0 +1,45 @@
+{
+    "id": "box1",
+    "name": "Box1",
+    "models": [
+        {
+            "id": "design",
+            "name": "Box1 Design"
+        }
+    ],
+    "viewerConfigs": {
+        "backgroundColor": [
+            0.90,
+            0.90,
+            1
+        ]
+    },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design"
+        ]
+    },
+    "viewerState": {
+        "tabOpen": "objects",
+        "expandObjectsTree": 3,
+        "expandClassesTree": 3,
+        "expandStoreysTree": 3,
+        "setCamera": {
+            "eye": [
+                4.0978504894028145,
+                2.435814506934357,
+                3.4797821096486024
+            ],
+            "look": [
+                -0.20716907707783258,
+                0.36621123509109804,
+                -0.5080465896796267
+            ],
+            "up": [
+                -0.2440016224455808,
+                0.9430675861275751,
+                -0.2260237514940254
+            ]
+        }
+    }
+}

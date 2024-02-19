@@ -1,0 +1,28 @@
+{
+    "id": "box2",
+    "name": "Box2",
+    "models": [
+        {
+            "id": "design",
+            "name": "Box2 Design"
+        }
+    ],
+    "viewerConfigs": {
+        "backgroundColor": [
+            0.90,
+            0.90,
+            1
+        ]
+    },
+    "viewerContent": {
+        "modelsLoaded": [
+            "design"
+        ]
+    },
+    "viewerState": {
+        "tabOpen": "objects",
+        "expandObjectsTree": 3,
+        "expandClassesTree": 3,
+        "expandStoreysTree": 3
+    }
+}
