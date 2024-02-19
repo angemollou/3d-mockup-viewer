@@ -37,16 +37,13 @@
     import { Server, BIMViewer, LocaleService } from "./dist/xeokit-bim-viewer.min.es.js";
 
     import { messages as localeMessages } from "./dist/messages.js";
+    import { projects } from "./data/projects/index.js";
 
     window.onload = function () {
 
         const requestParams = getRequestParams();
         const locale = requestParams.locale || "en";
-        const projectId = window.location.pathname.slice(1);
-
-        if (!projectId) {
-            return;
-        }
+        const projectId = window.location.pathname.slice(1) || projects[0].id;
 
         const openExplorer = requestParams.openExplorer;
         setExplorerOpen(openExplorer === "true");
