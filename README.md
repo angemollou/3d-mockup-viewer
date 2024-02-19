@@ -24,6 +24,6 @@ e.g.
 
 Coming soon!
 
-## Credits:
+## Credits go to:
 
 - [XEOLABS](https://xeolabs.com/)
