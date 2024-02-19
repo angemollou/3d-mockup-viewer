@@ -1,5 +1,5 @@
 {
-  "name": "my3dviewer",
+  "name": "view-3d",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -22,7 +22,6 @@
   "author": "Ange M.",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
     "serve": "^14.2.1"
   }
 }
